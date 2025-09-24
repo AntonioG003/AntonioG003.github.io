@@ -1,3 +1,10 @@
 body {
-    background-color:rgb(68, 121, 104)
+    background-color:rgb(33, 33, 33)
+}
+nav a {
+    
+    border-radius: 40%;
+}
+header{
+    color: hsl(180, 13%, 57%);
 }
