@@ -1,31 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pórtfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    <header>
-       <h1>Antonio Zmiewski</h1>
-            <nav>
-               <img src="imagensGerais/image.png" alt="Eu">
-            </nav>
-    </header>
-    <main>
-       <div class="lab">
-         <div><a href="Lab1/index.html">Lab 1</a></div>
-            <div><a href="Lab2/index.html">Lab 2</a></div>
-            <div><a href="Lab2/index.html">Lab 3</a></div>
-          </div>
-    </main>
-    <footer>
-        <p>Universidade Lusofona © 2025</p>
-    </footer>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#cadeira">Cadeira</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h2>
+          Primeiro vem a lógica, porque é ela que constrói a base;<br>
+          só depois o código ganha vida e se transforma em solução.
+        </h2>
+        <a href="#projetos" class="cta-btn">Ver Labs</a>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <h2>Labs</h2>
+      <div class="lab">
+        <div><a href="Lab1/index.html">Lab 1</a></div>
+        <div><a href="Lab2/index.html">Lab 2</a></div>
+        <div><a href="Lab 3/info.html">Lab 3</a></div>
+      </div>
+    </section>
+    <section id="cadeira">
+      <div class="cadeira-texto">
+        <h2>Interfaces Web</h2>
+        <p>
+          Esta disciplina sempre me chamou a atenção, pois foi o
+          <strong>front-end</strong> que despertou a minha curiosidade
+          e me trouxe para este mundo de códigos.<br><br>
+          Aqui aprendi que <em>design e lógica</em> andam de mãos dadas,
+          transformando ideias em soluções criativas e funcionais.
+        </p>
+      </div>
+      <div class="cadeira-imagem">
+        <img src="imagensGerais/diw.png" alt="Wordcloud DIW">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Universidade Lusófona © 2025</p>
+  </footer>
+
 </body>
 
 </html>
