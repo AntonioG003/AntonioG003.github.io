@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(143, 142, 142);
+}
+header h1{
+    padding: 20px;
+}
+header{
+    background-color: rgb(98, 245, 245);
+}
+footer{
+    text-align: center;
+    background-color: rgb(98, 245, 245);
+    padding: 15px;
+    margin-top: 30px;
+
+}
+header nav{
+    text-align: right;
+    justify-content: end;
+}
