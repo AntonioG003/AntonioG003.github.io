@@ -225,3 +225,43 @@ footer {
     color: white;
     border-top: 1px solid #0de8f4;
 }
+.opcoes-produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 40px;
+    background-color: white;
+    margin: 0 auto 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+}
+
+.opcoes-produtos label {
+    font-weight: bold;
+    color: #333;
+    font-size: 1em;
+}
+
+.opcoes-produtos select,
+.opcoes-produtos input[type="search"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.opcoes-produtos select:hover,
+.opcoes-produtos input[type="search"]:hover {
+    border-color: #0de8f4;
+}
+
+.opcoes-produtos input[type="search"] {
+    flex-grow: 1; /* Permite que o campo de pesquisa ocupe mais espaço */
+    max-width: 300px;
+}

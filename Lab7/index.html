@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Geek</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
     <header>
@@ -20,6 +20,24 @@
     <main>
         <section id="produtos">
             <h2>Selecione os seus produtos</h2>
+            
+            <div class="opcoes-produtos">
+                
+                <label for="filtro-categoria">Filtra</label>
+                <select id="filtro-categoria">
+                    <option value="todas">Todas as categorias</option>
+                    </select>
+
+                <label for="ordenar-por">Ordenar</label>
+                <select id="ordenar-por">
+                    <option value=""></option> 
+                    <option value="preco-crescente">Preço: Crescente</option>
+                    <option value="preco-decrescente">Preço: Decrescente</option>
+                </select>
+                
+                <input type="search" id="pesquisa-produto" placeholder="Pesquisar por produto">
+            </div>
+            
             <section id="lista-produtos"></section>
         </section>
 
